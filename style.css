@@ -257,6 +257,7 @@ hr{
 }
 .add > p{
     color: #777777;
+    width: 60%;
 }
 
 .socIcon{
@@ -324,6 +325,15 @@ hr{
 
 .partnerBrand{
     text-align: center;
+}
+
+.socIcon{
+    top: 1rem;
+}
+
+.add{
+    left: 0;
+    top:0.8rem;
 }
 
 }
