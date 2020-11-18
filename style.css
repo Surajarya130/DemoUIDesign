@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.firstContainer{
+    background-image: linear-gradient(rgba(254, 18, 0,0.8), rgba(255, 18, 0,0.8)), url(./imgs/firstBG.png);
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* opacity: 0.8; */
+    padding: 0;
+
+}
+
+
+.lSideSlender{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 80vw;
+    height: 100vh;
+}
+
+
+.menuLi{
+    font-size: 16px;
+    color:white;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 12.5px;
+}
+
+.menuLTalk{
+    background-color: white;
+    padding: 10px 16px;
+    color: black;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    box-shadow: 2px 3px 4px 0px black;
+}
+
+
+.firstHead{
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-top: 90px;
+    /* z-index: 2; */
+}
+
+.dad>p {
+    color: rgb(240,240,220);
+}
+
+.getStartedBtn{
+    background: white;
+    color: black;
+    font-size: 17px;
+    padding: 15px 35px;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+/* Sec Container */
+
+.secContainer{
+    /* height: 100vh; */
+    width: 85vw;
+    padding: 0;
+}
+.diaImg{
+    width: 223px;
+    height: 223px;
+    position: relative;
+}
+
+.abtUs{
+    background-color: white;
+    position: absolute;
+    padding: 1.2rem 1.2rem;
+    margin-left: 20px;
+    top: 20px;
+}
+
+.abtUsInfo{
+    bottom: 9px;
+    color: #4D4C4C;
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.pAUs{
+    margin-bottom: 0;
+    color: #C2C2C2;
+    font-weight: 600;
+}
+
+.expertQuote{
+    width: 50vw;
+}
+
+.iconInfo{
+    margin: 1.15rem;
+    position: relative;
+    top: 5px;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+.iInfo{
+    padding-top: 0.7rem;
+}
+
+
+.rowThird{
+    background-image: linear-gradient(rgba(0, 0, 0,0.89), rgba(0, 0, 0,0.89)), url(./imgs/firstBG.png);
+    min-height: 42vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+}
+
+.missionHead{
+    color: #322D2B;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.missionText{
+    position: relative;
+    font-size: 1.51rem;
+    top: 20px;
+
+}
+
+.iconBG{
+    background-image: url(./imgs/backOrange.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+    position: relative;
+}
+
+.actIcon{
+    position: absolute;
+    left: 1.312rem;
+    top: 0.75rem;
+    width: 1.75rem;
+}
+
+.iconPDesc{
+    font-size: 16.88px;
+    font-weight: 500;
+    margin-top: 20px;
+    width: 350px;
+}
+
+.iconDesc{
+    position: relative;
+    left: 6.25rem;
+    top: -3.125rem;
+    /* width: 26rem; */
+    
+}
+
+.actIconSm{
+    position: relative;
+    top: 1.25rem;
+    width: 2.1875rem;
+    left: 1.0625rem;
+}
+
+
+.digiMkt{
+    width: 2rem;
+    left: 18px;
+    top: 16px;
+}
+
+.branding{
+    position: relative;
+    top: 0.5rem;
+    width: 2.1875rem;
+    left: 1.0rem;
+}
+
+
+.partner{
+    width: 130px;
+    height: 85px;
+    padding: 5px;
+    margin: 0px 30px;
+}
+
+.partnerBrand{
+    padding: 70px 0;
+    background-color: #F5F0EC;
+
+}
+.partnerBrand>h4{
+    font-weight: 400;
+}
+
+.manBG{
+    background-image: linear-gradient(rgba(254, 18, 0,0.8), rgba(255, 18, 0,0.8)), url("/imgs/manBG.png");
+    /* min-height: 100vh; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 3rem 0;
+    opacity: 0.9;
+}
+
+hr{
+    width: 95%;
+}
+
+.subBtn{
+    margin: 1rem 0;
+    padding: 12px 44px;
+    border-radius: 1.7rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.footer{
+    background-color: #1F1E1E;
+    height: auto;
+}
+
+.smLogo{
+    width: 8rem;
+}
+
+.add{
+    position: relative;
+    left: 10rem;
+    bottom: 6rem;
+    height: auto;
+}
+
+.add > h4{
+    color: #B2B2B2;
+}
+.add > p{
+    color: #777777;
+}
+
+.socIcon{
+    margin-right: 1rem;
+}
+
+.aRiRe{
+    color: #4A4949;
+    font-weight: 600;
+    /* text-align: end; */
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 576px) {
+.logo{
+    width: 50vw;
+}
+
+.firstHead{
+    font-size: 2.3rem;
+    margin-top: 0;
+}
+
+.firstContainer{
+    min-height: 75vh;
+}
+
+.expertQuote {
+    width: 75vw;
+}
+
+.missionText{
+    text-align: justify;
+    width: 60vw;
+}
+
+.missionHead{
+    text-align: center;
+    margin: 0;
+}
+
+
+.leftInfo{
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.iconPDesc {
+    width: 17rem;
+    position: relative;
+    top: 2rem;
+    right: 5.8rem;
+}
+
+.partner{
+    width: 100px;
+    height: 80px;
+}
+
+.partnerBrand{
+    text-align: center;
+}
+
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .firstHead{
+        font-size: 3rem;
+        margin-top: 0;
+    }
+
+    .hAUs{
+        font-size: 3rem;
+    }
+    .leftInfo{
+        width: 20rem;
+    }    
+    .rightInfo{
+        width: 20rem;
+        right: -1rem;
+    }
+
+    .iconPDesc{
+        width: 260px;
+    }
+
+}
+
